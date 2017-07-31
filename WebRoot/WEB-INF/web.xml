@@ -18,6 +18,11 @@
         <servlet-name>DownLoadFile</servlet-name>
         <servlet-class>com.lee.upServlet.DownLoadFile</servlet-class>
     </servlet>
+  <servlet>
+    <servlet-name>SmartUploadServlet</servlet-name>
+    <servlet-class>com.lee.upServlet.SmartUploadServlet</servlet-class>
+  </servlet>
+
     <servlet-mapping>
     	<servlet-name>UploadFile</servlet-name>
     	<url-pattern>/UploadFile</url-pattern>
@@ -26,5 +31,9 @@
     	<servlet-name>DownLoadFile</servlet-name>
     	<url-pattern>/DownLoadFile</url-pattern>
     </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SmartUploadServlet</servlet-name>
+    <url-pattern>/SmartUploadServlet</url-pattern>
+  </servlet-mapping>
     
 </web-app>
